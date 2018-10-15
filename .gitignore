@@ -2,5 +2,6 @@ bin/
 obj/
 .vscode
 .vs
-Properties
+Properties/
 *.csproj.user
+*.sln
