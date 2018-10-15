@@ -16,8 +16,7 @@ namespace dotNetAPI
         {
             var host = new WebHostBuilder()
             .UseKestrel()
-            .UseContentRoot(Directory.GetCurrentDirectory())
-            .UseDefaultHostingConfiguration(args)
+            .UseContentRoot(Directory.GetCurrentDirectory())        
             .UseIISIntegration()
             .UseStartup<Startup>()
             .Build();
