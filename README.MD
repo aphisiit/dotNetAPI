@@ -13,7 +13,7 @@ $ dotnet build
 ```
 ## Release Project
 ```sh
-$ dotnet publish -f netcoreapp2.1 -c Releas
+$ dotnet publish -f netcoreapp2.1 -c Release
 ```
 ## Create docker image
 ```sh
